@@ -9,6 +9,7 @@
 # three read7() returns “Hello w”, “orld” and then “”.
 
 
+################## SOLUTION ##################
 def read7(file)
     file_data = File.read(file)
     arr = file_data.split(//)

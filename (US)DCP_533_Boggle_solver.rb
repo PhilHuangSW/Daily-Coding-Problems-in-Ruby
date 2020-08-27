@@ -1,4 +1,4 @@
-############################## BOGGLE SOLVER ##############################
+################## BOGGLE SOLVER ##################
 
 # This problem was asked by Facebook.
 
@@ -8,6 +8,7 @@
 # of valid words, implement a Boggle solver.
 
 
+################## SOLUTION ##################
 def find_words(board, words)
     found = []
     for i in 0...words.length

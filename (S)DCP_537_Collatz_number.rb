@@ -1,4 +1,4 @@
-############################ COLLATZ NUMBER ############################
+################## COLLATZ NUMBER ##################
 
 # This problem was asked by Apple.
 
@@ -12,6 +12,8 @@
 
 # Bonus: What input n <= 1000000 gives the longest sequence?
 
+
+################## SOLUTION ##################
 print "Input an integer: "
 num = gets.chomp.to_i
 count = 0
