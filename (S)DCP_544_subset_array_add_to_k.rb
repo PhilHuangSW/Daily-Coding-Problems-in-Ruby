@@ -15,12 +15,6 @@
 
 ################## SOLUTION ##################
 def subset(arr, n, k)
-    # new_arr = []
-    # for i in 0...arr.length
-    #     if arr[i] < k
-    #         new_arr << arr[i]
-    #     end
-    # end
     return true if k == 0
     return false if n == 0
     if (arr[n-1] > k)
